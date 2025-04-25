@@ -1,0 +1,107 @@
+.border{
+
+    border: 3px solid red;
+
+}
+
+
+.flex{
+    
+    display: flex;
+
+}
+
+
+.justify-center{
+
+    justify-content: center;
+
+}
+
+.items-center{
+
+    align-items: center;
+
+}
+
+
+.bg-black{
+
+    background-color: black;
+    color: white;
+
+}
+
+.invert{
+
+    filter: invert(1);
+
+}
+
+.bg-grey{
+
+    background-color: #121212;
+
+}
+
+.rounded{
+
+    border-radius: 10px;
+  
+
+}
+
+.m-1{
+
+    margin: 7px ;
+
+}
+
+
+.bg-light-grey{
+
+    
+
+
+    background-color: #1f1f1f;
+
+
+
+}
+
+
+.p-1{
+
+    padding: 20px;
+
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Increase the width by 50% (default is usually 12px) */
+  }
+  
+  /* Remove the top and bottom scroll buttons (arrows) */
+  ::-webkit-scrollbar-button {
+    display: none; /* Hides the scrollbar buttons */
+  }
+  
+  /* Track (optional if you want it to be invisible) */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+    /* Makes the scrollbar track invisible */
+  }
+  
+  /* Thumb (visible) */
+  ::-webkit-scrollbar-thumb {
+    
+    background-color: #555; /* Dark color for the scrollbar handle */
+   
+  }
+  
+  /* Thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #333; /* Darker color on hover */
+  }
+  
+ 
