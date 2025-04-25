@@ -39,12 +39,15 @@ async function getSongs(folder) {
 
 
 
-  let a = await fetch(`https://github.com/Ayush-Chandel/Spotify-Clone/tree/main/${folder}/`);
+  let a = await fetch(`/${folder}/`);
+ 
+  
 
   //While hosting you will remove the 127.00
 
   let response = await a.text();
-
+   console.log(response);
+   
   
 
   let div = document.createElement("div");
