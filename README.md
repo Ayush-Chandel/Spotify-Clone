@@ -1,4 +1,4 @@
-# BlogMania - A Blog/Article Website
+# Spotify Clone
 
 ## Functionality and Features
 
