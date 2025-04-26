@@ -1,5 +1,7 @@
 # Spotify Clone
 
+### A resonsive and functional clone of spotify built with Vanilla JS, HTML and CSS.
+
 ## Functionality and Features
 
 *  It includes all the features of:
