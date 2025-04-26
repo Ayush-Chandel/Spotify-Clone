@@ -38,15 +38,13 @@ async function getSongs(folder) {
 
 
 
+  let a = await fetch(`http://127.0.0.1:5500/${folder}/`);
 
-  let a = await fetch(`/${folder}/`);
- 
-  
 
   //While hosting you will remove the 127.00
 
   let response = await a.text();
-   console.log(response);
+ 
    
   
 
